@@ -1,0 +1,160 @@
+*{
+    font-family: verdana;
+    margin: 0;
+    
+}
+
+
+.logo1{
+    margin-left: 10px;
+    color: #C996FF;
+
+}
+.logo2{
+    color: #FFFFFF;
+}
+header{
+    float: left;
+    display: flex;
+    align-items: center;
+    background-color: #5711B9;
+    width: 100%;
+    height: 50px;
+    
+    
+}
+
+
+main{
+    background-color: #161414;
+    width: 100%;
+    height: 800px;
+    display: flex;
+}
+
+#container1{
+    border: 1px solid green;
+    width: 35%;
+    height: 800px;
+    float: left;
+    
+}
+#container2{
+    border: 1px solid green;
+    width: 30%;
+    height: 800px;
+    float: left;
+}
+#container3{
+    border: 1px solid green;
+    width: 35%;
+    height: 800px;
+    float: right;
+}
+
+
+#div1{
+    float: left;
+    display: flex;
+    align-items: center;
+    background-color: #5711B9;
+    width: 80%;
+    height: 500px;
+    border: 1px solid #5711B9;
+    border-radius: 35px;
+    margin-top: 50px;
+    margin-left: 10%;
+    justify-content: center;
+    color: #C996FF;
+
+
+}
+
+#div2{
+    width: 80%;
+    height: 340px;
+    background-color: #5711B9;
+    border: 1px solid #5711B9;
+    border-radius: 35px;
+    margin-top: 50px;
+    margin-left: 10%;
+
+}
+#kolo{
+    
+
+    width: 65%;
+    height: 58%;
+    margin:auto;
+    margin-top: 20px;
+
+    border-radius: 50%;
+    
+    
+    background-color: #391171;
+
+}
+
+#wheel{
+    width: 70%;
+    height: 40px;
+    background-color: #391171;
+    border-radius: 10px;
+    margin:auto;
+    margin-top: 5%;
+}
+
+#krec{
+    color: white;
+    width: 60%;
+    height: 30px;
+    background-color: #9d60de;
+    margin:auto;
+    
+    margin-top: 5%;
+    border-radius: 20px;
+
+}
+
+.ulepsz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#div3{
+    width: 70%;
+    height: 150px;
+    background-color: #5711B9;
+    margin-top: 10%;
+    margin-left: 15%;
+    border-radius: 20px;
+
+}
+#text4{
+   padding-top: 10%;
+   padding-left: 35%;
+}
+#text2{
+    color: #C996FF;
+    font-size: 20px;
+    
+   
+    
+}
+#text3{
+    font-size: 20px;
+    color: #FFFFFF;
+    
+}
+
+#balance{
+    width: 60%;
+    height: 50px;
+    background-color: #391171;
+    margin-top: 10%;
+    border-radius: 25px;
+    margin-left: 20%;
+
+}
