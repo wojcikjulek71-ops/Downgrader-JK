@@ -50,6 +50,7 @@ main{
     width: 35%;
     height: 800px;
     float: right;
+    position: relative;
 }
 
 
@@ -173,4 +174,25 @@ main{
     color: #C996FF;
 
 
+}
+
+#menu{
+    
+    float:right;
+    width: 20px;
+    height: 140px;
+    background-color: green;
+    margin-top: 150px;
+    
+    position: absolute;
+    float: right;
+}
+
+
+#menu:hover{
+    float:right;
+    width: 40px;
+    height: 140px;
+    background-color: green;
+    margin-top: 150px;
 }
