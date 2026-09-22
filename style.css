@@ -33,20 +33,20 @@ main{
 }
 
 #container1{
-    border: 1px solid green;
+    
     width: 35%;
     height: 800px;
     float: left;
     
 }
 #container2{
-    border: 1px solid green;
+    
     width: 30%;
     height: 800px;
     float: left;
 }
 #container3{
-    border: 1px solid green;
+    
     width: 35%;
     height: 800px;
     float: right;
@@ -156,5 +156,21 @@ main{
     margin-top: 10%;
     border-radius: 25px;
     margin-left: 20%;
+
+}
+#div4{
+    float: left;
+    display: flex;
+    align-items: center;
+    background-color: #5711B9;
+    width: 80%;
+    height: 500px;
+    border: 1px solid #5711B9;
+    border-radius: 35px;
+    margin-top: 50px;
+    margin-left: 10%;
+    justify-content: center;
+    color: #C996FF;
+
 
 }
