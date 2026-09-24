@@ -4,3 +4,7 @@ function wyswietl(){
     menu.style = "display: none;"
     menu2.style = "display: block;"
 }
+function wyswietl2(){
+    menu.style = "display: block;"
+    menu2.style = "display: none;"
+}
