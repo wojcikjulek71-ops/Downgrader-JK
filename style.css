@@ -1,6 +1,7 @@
 *{
     font-family: verdana;
     margin: 0;
+    box-sizing: border-box;
     
 }
 
@@ -14,7 +15,7 @@
     color: #FFFFFF;
 }
 header{
-    float: left;
+    
     display: flex;
     align-items: center;
     background-color: #5711B9;
@@ -30,33 +31,35 @@ main{
     width: 100%;
     height: 914px;
     display: flex;
-    position: relative;
+    min-height: 914px;
+    flex-wrap: wrap;
 }
 
 #container1{
     
     width: 35%;
     height: 800px;
-    float: left;
+    min-width: 250px;
     
 }
 #container2{
     
     width: 30%;
     height: 800px;
-    float: left;
+    min-width: 250px;
+    
 }
 #container3{
     
     width: 35%;
     height: 800px;
-    float: right;
+    min-width: 250px;
     position: relative;
 }
 
 
 #div1{
-    float: left;
+    
     display: flex;
     align-items: center;
     background-color: #5711B9;
@@ -65,7 +68,7 @@ main{
     border: 1px solid #5711B9;
     border-radius: 35px;
     margin-top: 50px;
-    margin-left: 10%;
+    margin: 50px auto 0;
     justify-content: center;
     color: #C996FF;
 
@@ -79,14 +82,14 @@ main{
     border: 1px solid #5711B9;
     border-radius: 35px;
     margin-top: 50px;
-    margin-left: 10%;
+    margin: 50px auto 0;
 
 }
 #kolo{
     
-
-    width: 65%;
-    height: 58%;
+    display: flex;
+    width: 200px;
+    height: 200px;
     margin:auto;
     margin-top: 20px;
 
@@ -111,17 +114,16 @@ main{
     width: 60%;
     height: 30px;
     background-color: #9d60de;
-    margin:auto;
-    
-    margin-top: 5%;
+    margin: 5% auto 0;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .ulepsz {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0;
     
 }
 
@@ -129,14 +131,18 @@ main{
     width: 70%;
     height: 150px;
     background-color: #5711B9;
-    margin-top: 10%;
-    margin-left: 15%;
+    margin: 10% auto 0;
+    
     border-radius: 20px;
 
 }
 #text4{
-   padding-top: 10%;
-   padding-left: 35%;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
 }
 #text2{
     color: #C996FF;
@@ -155,9 +161,8 @@ main{
     width: 60%;
     height: 50px;
     background-color: #391171;
-    margin-top: 10%;
     border-radius: 25px;
-    margin-left: 20%;
+    margin: 15px auto 0;
 
 }
 #div4{
@@ -170,12 +175,20 @@ main{
     border: 1px solid #5711B9;
     border-radius: 35px;
     margin-top: 50px;
-    margin-left: 10%;
-    justify-content: center;
+    margin: 50px auto 0;
+    justify-content: space-between;
     color: #C996FF;
 
 
 }
+
+.curentitem{
+    
+    align-self: flex-start;
+    margin-top: 20px;
+
+}
+
 
 #menu{
     
@@ -190,7 +203,7 @@ main{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     
-    transition: width 2s;
+    
     
     
 }
